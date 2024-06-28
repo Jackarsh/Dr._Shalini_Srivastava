@@ -83,7 +83,7 @@
     text-align: justify;
   }
   #main{
-    background-image: url('Background2.jpg');
+    background-image: url('background2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -98,7 +98,7 @@
     text-align: center;
   }
   body{
-    background-image: url('Background2.jpg');
+    background-image: url('background2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
