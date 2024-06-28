@@ -83,7 +83,7 @@
     text-align: justify;
   }
   #main{
-    background-image: url('/public/commonbg.jpg');
+    background-image: url('/media/commonbg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -98,7 +98,7 @@
     text-align: center;
   }
   body{
-    background-image: url('/public/commonbg.jpg');
+    background-image: url('/media/commonbg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;

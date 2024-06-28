@@ -81,7 +81,7 @@
     text-align: justify;
   }
  body{
-    background-image: url('/public/commonbg.jpg');
+    background-image: url('/media/commonbg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
