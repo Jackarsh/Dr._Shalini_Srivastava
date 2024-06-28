@@ -1,0 +1,5 @@
+List ID = list
+Sub-Heading ID = pagehead
+bullet ID = num
+Pageheading ID = mainhead
+Bullet Head ID = numhead

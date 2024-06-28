@@ -1,0 +1,6 @@
+Page Heading ID = pagehead
+Description ID = job_des
+College Name ID = col_name
+Entire Section ID = sec_id
+Bar id = bar
+Reasearch Body ID = lilbod

@@ -1,0 +1,4 @@
+Body Head ID = bod_head_id
+Buttons ID = bod_but
+Body Description ID = des_id
+Each Section ID = sec_id

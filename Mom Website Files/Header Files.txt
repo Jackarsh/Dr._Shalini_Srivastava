@@ -1,0 +1,105 @@
+CSS:
+/*This is header*/
+#header{
+    background-color: rgb(143, 146, 149);
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    font-weight: bold;
+    font-size: x-large;
+}
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(143, 146, 149);
+    position: relative;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    background-color: rgb(189, 186, 186);
+    color:black;
+    padding: 19px 21px;
+    text-decoration: none;
+    font-size: large;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgb(184, 187, 190);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: black;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #cdd3d2;
+    color: white;
+  }
+  .links{
+    font-size: medium;
+    color: blue;
+  }
+
+  
+
+HTML:
+
+Link to CSS: 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+  <body>
+    <header>
+        <div class="topnav">
+            <h1 id="header">Dr. Shalini Srivastava</h1>
+            <!-- Navigation links (hidden by default) -->
+            <div class="links" id="myLinks">
+                <a href="/Welcome Page/welcome.html">Home</a>
+                <a href="/Publications/pub.html">Publications</a>
+                <a href="/Experience/exp.html">Experience</a>
+                <a href="/Academic Qualifications/acad.html">Academics</a>
+                <a href="/Awards/awards.html">Awards</a>
+                <a href="/Workshops/work.html">Workshops & Seminars</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="flex flex-col sm:flex-row mt-10">
+        <div id="pagehead">
+            <!-- <h1>&emsp;About</h1>-->
+        </div>
+    </div>
+
+
+
+JS:
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
