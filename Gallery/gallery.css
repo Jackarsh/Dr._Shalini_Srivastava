@@ -111,7 +111,7 @@
 .gallery img{
   width: 440px;
   height: 330px;
-  transition: 0.1s;
+  transition: 600ms;
 }
 .gallery img:hover{
   transform: scale(1.1);
