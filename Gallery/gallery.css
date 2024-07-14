@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*This is Footer*/
+#contact{
+    background-color: rgb(224, 223, 223);
+    color: black;
+}
+#endname{
+    color:black;
+}
+#addr{
+    color:black
+}
+#yt{
+    color: rgb(174, 99, 99);
+}
+#coder{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+/*This is Header*/
+#header{
+    background-color: rgb(143, 146, 149);
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    font-weight: bold;
+    font-size: x-large;
+}
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(143, 146, 149);
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    background-color: rgb(189, 186, 186);
+    color:black;
+    padding: 19px 21px;
+    text-decoration: none;
+    font-size: large;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgb(184, 187, 190);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: black;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #cdd3d2;
+    color: white;
+  }
+  .links{
+    font-size: medium;
+    color: blue;
+  }
+
+  body{
+    background-image: url('/media/commonbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  /* #pagehead{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  } */
+.heading{
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-left: 6cap;
+}
+.gallery{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery img:first-child{
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.gallery img{
+  width: 440px;
+  height: 330px;
+  transition: 0.1s;
+}
+.gallery img:hover{
+  transform: scale(1.1);
+}
+
+@media screen and (max-width:1000px){
+  .gallery img{
+    width: 320px;
+    height: 240px;
+  }
+  .heading{
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  .gallery{
+    align-items: center;
+  }
+  .gallery img:first-child{
+    margin-top: 18px;
+    margin-left: 40px;
+  }
+}
